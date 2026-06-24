@@ -9,7 +9,6 @@ import { Quiz } from "@/components/quiz/quiz";
 import { DragMatch } from "@/components/quiz/drag-match";
 import { Scenario } from "@/components/quiz/scenario";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { useI18n } from "@/lib/i18n/provider";
 import { useProgress } from "@/lib/progress";

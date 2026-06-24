@@ -5,7 +5,7 @@ import type { DragMatchExercise } from "@/content/schema";
 import { useI18n } from "@/lib/i18n/provider";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Check, Link2, RotateCcw, X } from "lucide-react";
+import { Link2, RotateCcw } from "lucide-react";
 
 /**
  * Tap-to-pair: click a left item, then a right item to bind. Click again to unbind.
