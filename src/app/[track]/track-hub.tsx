@@ -26,7 +26,7 @@ export function TrackHub({ trackId }: { trackId: TrackId }) {
   const advanced = track.lessons.filter((l) => l.level === "advanced");
 
   const firstUnfinished =
-    track.lessons.find((_l) => !progress.pct || false) ?? track.lessons[0];
+    track.lessons.find(() => !progress.pct || false) ?? track.lessons[0];
 
   return (
     <div className="min-h-screen">
